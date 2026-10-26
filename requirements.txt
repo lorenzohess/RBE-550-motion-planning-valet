@@ -1,0 +1,9 @@
+# Python 3.10 or newer. Developed on 3.14.8.
+numpy>=1.24          # tested 2.5.4
+pygame>=2.5          # tested 2.6.1  -- window and recording; text is drawn with Pillow
+pillow>=10.1         # tested 13.0.0 -- text rendering and screenshots
+astar>=1.1           # tested 1.1    -- A* search (BSD)
+scipy>=1.10          # tested 1.18.1 -- heuristic (distance transform, Dijkstra)
+pytest>=7.0          # tested 9.1.1  -- tests only
+
+# ffmpeg (not a Python package) must be on PATH for --record.
